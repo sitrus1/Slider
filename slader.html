@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My storehouse</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Files -->
+    <link rel="stylesheet" href="slader.css">
+    <script defer src="slader.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="slider-page">
+            <div class="slider__left-part">
+                <div class="sliding-decorations">
+                    <div class="sliding-decorations__blob" style="--rotation: 45deg; --rotation-hue: 90deg;"></div>
+
+                    <div class="sliding-name-wrapper">
+                        <span class="sliding-decorations__name"></span>
+                    </div>
+                    <img class="sliding-decorations__main-img">
+        
+                    <span class="sliding-decorations__ball1"></span>
+                    <span class="sliding-decorations__ball2"></span>
+                </div>
+
+                <div class="slider__types">
+                    <button class="slider__types__item active"><ion-icon name="diamond-outline"></ion-icon></button>
+                    <span class="slider__types__element-line"></span>
+                    <button class="slider__types__item"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    <span class="slider__types__element-line"></span>
+                    <button class="slider__types__item"><ion-icon name="browsers-outline"></ion-icon></button>
+                </div>
+            </div>
+
+            <div class="slider__right-part">
+                <h2 class="slider__right__h2title">Our arts</h2>
+                <span class="slider__right__type-name">product</span>
+                
+                <!-- <ul class="slider__right__product-infos">
+                    <li class="slider__right__product-info">
+                        <h4 class="slider__right__product__name">Крест</h4>
+                        <div class="slider__right__product__size">1.140.000 ₽</div>
+                        <span class="slider__right__product__photo-chose"></span>
+                        <img src="https://i.1.creatium.io/disk2/cf/c6/39/7ad1f1aca6cce2f03fda87b53e8a392d64/33.jpg" alt="" class="slider__right__product__photo">
+                        <button class="slider__right__product__add-button">+</button>
+                    </li>
+                    <li class="slider__right__product-info">
+                        <h4 class="slider__right__product__name">Прогулка</h4>
+                        <div class="slider__right__product__size">180.000 ₽</div>
+                        <span class="slider__right__product__photo-chose"></span>
+                        <img src="https://i.1.creatium.io/disk2/44/bb/72/d59f21b049c7e651efe1a26e9eedcdfa1a/unnamed.jpg" alt="" class="slider__right__product__photo">
+                        <button class="slider__right__product__add-button">+</button>
+                    </li>
+                    <li class="slider__right__product-info">
+                        <h4 class="slider__right__product__name">0 рублей</h4>
+                        <div class="slider__right__product__size">110.000 ₽</div>
+                        <span class="slider__right__product__photo-chose"></span>
+                        <img src="https://i.1.creatium.io/disk2/f5/01/d4/8de9b987b60b7df3505168e519f1e53cf5/60.jpg" alt="" class="slider__right__product__photo">
+                        <button class="slider__right__product__add-button">+</button>
+                    </li>
+                </ul> -->
+
+                <div class="slider">
+                    <div class="slider-line">
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Крест</h4>
+                                <div class="slider__right__product__size">1.140.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/cf/c6/39/7ad1f1aca6cce2f03fda87b53e8a392d64/33.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Прогулка</h4>
+                                <div class="slider__right__product__size">180.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/44/bb/72/d59f21b049c7e651efe1a26e9eedcdfa1a/unnamed.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">0 рублей</h4>
+                                <div class="slider__right__product__size">110.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/f5/01/d4/8de9b987b60b7df3505168e519f1e53cf5/60.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Шоры</h4>
+                                <div class="slider__right__product__size">175.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/5e/dc/c8/1109a134aee0288cfe5fb829d251a86a3f/6.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Николин...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/87/27/d0/96b70440b01718181588a2fd67592e3ee3/39.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Учитель</h4>
+                                <div class="slider__right__product__size">175.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/e7/a5/d5/4065aa7ab5be8d5470fb516fea634c86a0/3.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Карнава...</h4>
+                                <div class="slider__right__product__size">80.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/36/19/d9/97ffce33c4ee8e087448f05ba74b905088/1.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Карнава...</h4>
+                                <div class="slider__right__product__size">16.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/f1/80/6e/85fe92659123e89cb80a9514538a83b54f/16.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Крысёно...</h4>
+                                <div class="slider__right__product__size">160.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/65/f3/43/0b8d870aca53cc08278da8dd0b33e9d31f/36.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Взрослы...</h4>
+                                <div class="slider__right__product__size">1.500 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/ce/f0/28/0a3a3f909dbce0038cf8b6596f95ec005d/28.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">2000</h4>
+                                <div class="slider__right__product__size">1.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/8d/7b/cf/8ea4cdcf51191cb4db137981aefc98c663/21.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Золотой...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/19/09/cd/737aee8d8e0f2e4f9ec773262f2969ab1d/18.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Panoram...</h4>
+                                <div class="slider__right__product__size">780.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/82/d2/0c/91e30f24b14839ba51a880da16cfbb4422/109.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Ялта. До...</h4>
+                                <div class="slider__right__product__size">280.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/bf/29/28/b13d1889bd1714ff17eefa025aad9747da/104.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Деревен...</h4>
+                                <div class="slider__right__product__size">180.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/de/c1/d4/c37ff4f8282d731e2d5ee0b9e901d5880e/100.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Портрет...</h4>
+                                <div class="slider__right__product__size">70.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/8e/df/d6/c33e12ec7224f667431005bd5de595e251/80.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Портрет...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/cd/4c/1b/f62c262250e24238dfde122bde0cc28f40/unnamed.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Портрет...</h4>
+                                <div class="slider__right__product__size">70.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/7a/29/cf/39a5b327ea475e6e261dde3fe90d578832/79.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Bois Gr...</h4>
+                                <div class="slider__right__product__size">45.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/59/3d/39/4ffd300bbcfc0ec870175673c5ce9ef3c5/1.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Бюст же...</h4>
+                                <div class="slider__right__product__size">320.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/7f/0a/99/431077387df64cbae9b1bb29c42d6dc251/53.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Лунатизм</h4>
+                                <div class="slider__right__product__size">270.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/5a/71/4e/70b4e70922c7758a5c5cc35846247e5f5f/55.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Череп с...</h4>
+                                <div class="slider__right__product__size">300.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/72/df/80/eff336a9f01a3458a0d1b12d7c1a2ed974/28.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Кентавр</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/fd/a3/6b/a4e8664b0a7d3328134c10ee41666d7b28/43.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Маленьк...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/e5/89/45/d360587052e2f28d7c6e50229a0a8d5371/3.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Пара Ар...</h4>
+                                <div class="slider__right__product__size">60.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/54/0b/44/3f1262887dc61b9f2de4f3113309fbeb31/15.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Философ...</h4>
+                                <div class="slider__right__product__size">40.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/2f/00/29/9c1ce15834427531c55b15d3eadef0e712/1.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Ангел в...</h4>
+                                <div class="slider__right__product__size">90.000 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/b7/95/0c/6b5369bd7a2e8768b179fe3a3dfd9f1d1e/5.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                        <ul class="slider__right__product-infos">
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Начало ...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/47/13/3e/28d3adb26a39f9399b08a769fd1e5ba6c7/10.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Букет н...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/9f/c5/d3/02f77fb93b7f39835ad24a7103cab47300/9.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                            <li class="slider__right__product-info">
+                                <h4 class="slider__right__product__name">Ангелы ...</h4>
+                                <div class="slider__right__product__size">0 ₽</div>
+                                <span class="slider__right__product__photo-chose"></span>
+                                <img src="https://i.1.creatium.io/disk2/a4/aa/96/20e2ce939eebebf97a44e395000b74321a/18.jpg" alt="" class="slider__right__product__photo">
+                                <button class="slider__right__product__add-button">+</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__redactor-wrapper">
+                <div class="slider__redactor__left">
+                    <button style="--color: #FBCB0A;" class="slider__redactor__ruller"><ion-icon name="expand-outline"></ion-icon></button>
+                    <button style="--color: #590696;" class="slider__redactor__pen active"><ion-icon name="brush-outline"></ion-icon></button>
+                    <button style="--color: #06FF00;" class="slider__redactor__accaunt list"><ion-icon name="person-outline"></ion-icon></button>
+                </div>
+
+                <button class="slider__redactor__next-btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
